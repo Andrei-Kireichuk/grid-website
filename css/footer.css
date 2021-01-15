@@ -1,5 +1,5 @@
 .footer {
-    background-image: url(/img/Wave.svg);
+    background-image: url(../img/Wave.svg);
     background-position: bottom;
     background-repeat:repeat-x;    
 }
@@ -112,7 +112,7 @@ border-radius: 50%;
     padding-left: 15px;
     margin-right: 25px;
     border: transparent;
-    background-image: url(/img/icon-user.svg);
+    background-image: url(../img/icon-user.svg);
     background-position: right;
     background-repeat: no-repeat;
     background-color: var(--color-grey-lighter);
@@ -127,7 +127,7 @@ border-radius: 50%;
     padding-left: 15px;
     border: none;
     border-radius: 16px;
-    background-image: url(/img/icon-mail.svg);
+    background-image: url(../img/icon-mail.svg);
     background-position: right;
     background-repeat: no-repeat;
     background-color: var(--color-grey-lighter);
@@ -156,7 +156,7 @@ border-radius: 50%;
     font-family: Inter;
     border-radius: 16px;
     resize: none;
-    background-image: url(/img/icon-edit.svg);
+    background-image: url(../img/icon-edit.svg);
     background-position: top right;
     background-repeat: no-repeat;
     background-color: var(--color-grey-lighter);
@@ -261,7 +261,7 @@ border-radius: 50%;
         margin-right: 0px;
         border: transparent;
         border-radius: 16px;
-        background-image: url(/img/icon-user.svg);
+        background-image: url(../img/icon-user.svg);
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -276,7 +276,7 @@ border-radius: 50%;
         padding-left: 15px;
         border: none;
         border-radius: 16px;
-        background-image: url(/img/icon-mail.svg);
+        background-image: url(../img/icon-mail.svg);
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -303,7 +303,7 @@ border-radius: 50%;
         border: none;
         border-radius: 16px;
         font-size: 18px;
-        background-image: url(/img/icon-edit.svg);
+        background-image: url(../img/icon-edit.svg);
         background-position: top right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -338,7 +338,7 @@ border-radius: 50%;
         border-radius: 16px;
         border: transparent;
         font-size: 18px;
-        background-image: url(/img/icon-user.svg);
+        background-image: url(../img/icon-user.svg);
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -358,7 +358,7 @@ border-radius: 50%;
         padding-left: 15px;
         border: none;
         border-radius: 16px;
-        background-image: url(/img/icon-mail.svg);
+        background-image: url(../img/icon-mail.svg);
         background-position: right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -385,7 +385,7 @@ border-radius: 50%;
         border: none;
         border-radius: 16px;
         font-size: 18px;
-        background-image: url(/img/icon-edit.svg);
+        background-image: url(../img/icon-edit.svg);
         background-position: top right;
         background-repeat: no-repeat;
         background-color: var(--color-grey-lighter);
@@ -425,9 +425,9 @@ border-radius: 50%;
 
 @media screen and (max-width: 360px) {
     .footer {
-        background-image: url(/img/Rectangle-bottom.svg),
-        url(/img/dots-bottom.svg),
-        url(/img/Rectangle-purple.svg);
+        background-image: url(../img/Rectangle-bottom.svg),
+        url(../img/dots-bottom.svg),
+        url(../img/Rectangle-purple.svg);
         background-position: bottom left;
         background-repeat: no-repeat;
     }
