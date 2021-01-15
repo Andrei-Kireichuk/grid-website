@@ -125,7 +125,7 @@ list-style-type: none;
         top: 0;
         left: -100%;  
         width: 300px;
-        height: 350px;  
+        height: 100%;  
         margin: 0;
         padding: 80px 0;  
         display: block;
