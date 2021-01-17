@@ -64,7 +64,7 @@
 .plan__box {
     width: 370px;
     height: 536px;
-    padding-left: 30px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -201,6 +201,12 @@
 
     .form_toggle-item label {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .plan--shadow {
+        width: 330px;
     }
 }
 
