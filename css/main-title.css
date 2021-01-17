@@ -344,7 +344,7 @@
 
     .sub-title__text {
         margin: 0 auto;
-        max-width: 1170px;
+        max-width: 770px;
         padding-top: 165px;
         text-align: left;
     }
@@ -401,7 +401,7 @@
     }
 
     .image-tile__item--6 {
-        grid-column: 2 / 4;
+        grid-column: 2 / 3;
         grid-row: 3 / 4; 
     }
 
