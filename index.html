@@ -146,12 +146,12 @@
             <div class="form_toggle">
                 <div class="form_toggle-item item-1">
                     <input class='input' id="fid-1" type="radio" name="radio" value="monthly" checked>
-                    <label class="line" for="fid-1">monthly</label>
+                    <label class="line"  onclick="monthFunction()" for="fid-1">monthly</label>
                 </div>
                 <h4>&nbsp•&nbsp</h4>
                 <div class="form_toggle-item item-2">
                     <input class="input" id="fid-2" type="radio" name="radio" value="yearly">
-                    <label class='line' for="fid-2">yearly</label>
+                    <label class='line' onclick="myFunction()" for="fid-2">yearly</label>
                 </div>
             </div>
         </div>
@@ -190,8 +190,9 @@
                             BEST!
                         </div>
                     </div>  
-                <div class="plan__price plan-price--month">
-                    $24 <span class="plan-price--small">/ month</span>
+                <div class="plan__wrapper">
+                    <div class="plan__price plan-price--month"  id="click-year">
+                    $24 </div><div class="plan-price--month" id="click-period">/ MONTH</div>
                 </div>
                 <ul class="plan__ul">
                     <li class="plan-1__li">
@@ -309,5 +310,6 @@
                     <img class="social__icon--item" src="img/icon-twitter.svg" alt="">
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
